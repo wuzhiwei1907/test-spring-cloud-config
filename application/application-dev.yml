@@ -13,8 +13,10 @@ spring:
     timeout: 0
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    username: paascloud
-    password: 123456
+#    username: paascloud
+#    password: 123456
+    username: root
+    password: 123qweasd
     type: com.alibaba.druid.pool.DruidDataSource
     initial-size: 10
     min-idle: 10
@@ -74,8 +76,10 @@ paascloud:
       expiredMinutes: 120
   mail:
     host: smtp.sina.com
-    username: 'your email address'
-    password: 'your email password'
+#    username: 'your email address'
+#    password: 'your email password'
+    username: 'wuzhiwei@cpsino.com'
+    password: '123456'
     test-connection: false
     properties:
       mail:
