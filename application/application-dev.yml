@@ -78,8 +78,8 @@ paascloud:
     host: smtp.sina.com
 #    username: 'your email address'
 #    password: 'your email password'
-    username: 'wuzhiwei@cpsino.com'
-    password: '123456'
+    username: 'wuzhiwei1907@sina.com'
+    password: 'Rena0729'
     test-connection: false
     properties:
       mail:
