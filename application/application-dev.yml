@@ -76,19 +76,17 @@ paascloud:
       expiredMinutes: 120
   mail:
     host: smtp.sina.com
-#    username: 'your email address'
-#    password: 'your email password'
-    username: 'wuzhiwei1907@sina.com'
-    password: 'Rena0729'
+    username: 'your email address'
+    password: 'your email password'
     test-connection: false
     properties:
       mail:
         smtp:
-          auth: true
+          auth: false
           timeout: 2500
           starttls:
-            enable: true
-            required: true
+            enable: false
+            required: false
   aliyun:
     key:
       accessKeyId: 'your aliyun accessKeyId'
